@@ -102,7 +102,9 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Palatino', serif;
+		/* font-family: 'Palatino', serif; */
+		/* font-family: 'Palatino', sans-serif; */
 		color: #7b818c;
 		font-weight: 400;
 		font-size: 11pt;
@@ -119,7 +121,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		text-transform: uppercase;
+		text-transform: capitalize;
 		font-weight: 800;
 		letter-spacing: 0.04em;
 		color: #404248;
@@ -196,7 +198,7 @@ input, select, textarea {
 
 	.date {
 		display: block;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		font-weight: 700;
 		letter-spacing: 0.065em;
 		font-size: 0.9em;
@@ -1238,16 +1240,16 @@ input, select, textarea {
 
 		header p {
 			display: block;
-			text-transform: uppercase;
+			text-transform: capitalize;
 			font-weight: 700;
 			letter-spacing: 0.065em;
 			font-size: 0.9em;
-			color: #696969;
+			color: #ffffff;
 			margin: 0;
 		}
 
 			header p strong {
-				color: #404248;
+				color: #ffffff;
 				font-weight: 800;
 			}
 
@@ -1281,7 +1283,7 @@ input, select, textarea {
 
 	form label {
 		display: block;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		font-weight: 800;
 		letter-spacing: 0.04em;
 		color: #404248;
@@ -1362,7 +1364,7 @@ input, select, textarea {
 			table.default th {
 				text-align: left;
 				padding: 0.5em 1em 0.5em 1em;
-				text-transform: uppercase;
+				text-transform: capitalize;
 				font-weight: 800;
 				letter-spacing: 0.04em;
 				margin: 0 0 1em 0;
@@ -1449,7 +1451,7 @@ input, select, textarea {
 		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 		color: #fff !important;
 		text-decoration: none;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		font-weight: 800;
 		font-size: 0.95em;
 		letter-spacing: 0.075em;
@@ -1533,7 +1535,7 @@ input, select, textarea {
 
 	dl.contact dt {
 		display: block;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		font-weight: 700;
 		letter-spacing: 0.065em;
 		font-size: 0.9em;
@@ -1718,7 +1720,7 @@ input, select, textarea {
 			#nav > ul > li > a, #nav > ul > li > span {
 				color: #fff;
 				text-decoration: none;
-				text-transform: uppercase;
+				text-transform: capitalize;
 				font-weight: 800;
 				font-size: 0.95em;
 				letter-spacing: 0.075em;
@@ -1769,7 +1771,7 @@ input, select, textarea {
 		.dropotron a, .dropotron span {
 			color: #aaa;
 			text-decoration: none;
-			text-transform: uppercase;
+			text-transform: capitalize;
 			font-weight: 800;
 			font-size: 0.8em;
 			letter-spacing: 0.075em;
@@ -1795,7 +1797,7 @@ input, select, textarea {
 			border-left: 0;
 			border-right: 0;
 			color: #fff;
-			color: rgba(255, 255, 255, 0.75);
+			color: rgb(255, 255, 255);
 			font-size: 2.35em;
 			font-weight: 700;
 			line-height: 1.3em;
@@ -1812,7 +1814,7 @@ input, select, textarea {
 				display: block;
 				border-top: solid 1px;
 				border-color: #888;
-				border-color: rgba(255, 255, 255, 0.25);
+				border-color: rgb(255, 255, 255);
 				margin: 10px 0 1.25em 0;
 			}
 
@@ -1821,14 +1823,14 @@ input, select, textarea {
 				display: block;
 				border-bottom: solid 1px;
 				border-color: #888;
-				border-color: rgba(255, 255, 255, 0.25);
+				border-color: rgb(255, 255, 255);
 				margin: 1.25em 0 10px 0;
 			}
 
 		#banner p {
-			text-transform: uppercase;
+			text-transform: capitalize;
 			color: #fff;
-			color: rgba(255, 255, 255, 0.75);
+			color: rgb(255, 255, 255);
 			font-size: 1.5em;
 			font-weight: 700;
 			line-height: 1.3em;
@@ -1848,12 +1850,12 @@ input, select, textarea {
 
 /* Wrappers */
 
-	#header-wrapper {
-		background: url("images/bg01.png"), url("../../images/header.jpg");
+	/* #header-wrapper {
+		background: url("images/bg01.png"), url("../../images/analytics2.webp");
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
-	}
+	} */
 
 	#main-wrapper {
 		background: #fff;
@@ -2110,7 +2112,7 @@ input, select, textarea {
 
 				#titleBar .title {
 					display: block;
-					text-transform: uppercase;
+					text-transform: capitalize;
 					font-weight: 800;
 					letter-spacing: 0.04em;
 					color: #fff;
@@ -2195,7 +2197,7 @@ input, select, textarea {
 					border-top: solid 1px rgba(255, 255, 255, 0.05);
 					border-bottom: solid 1px rgba(0, 0, 0, 0.15);
 					padding: 0 1em 0 1em;
-					text-transform: uppercase;
+					text-transform: capitalize;
 					font-weight: 700;
 					font-size: 0.95em;
 					letter-spacing: 0.075em;
